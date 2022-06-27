@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:id="@+id/numbers_textview"
+        android:paddingStart="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:paddingVertical="28dp"
+        android:background="@color/orange"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Family Members"
+        android:paddingStart="8dp"
+        android:textSize="16sp"
+        android:id="@+id/textview_family_members"
+        android:textColor="@color/white"
+        android:paddingVertical="28dp"
+        android:background="@color/green"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colors"
+        android:paddingStart="8dp"
+        android:textSize="16sp"
+        android:id="@+id/textview_colors"
+        android:textColor="@color/white"
+        android:paddingVertical="28dp"
+        android:background="@color/purple_700"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:id="@+id/textview_phrases"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:paddingVertical="28dp"
+        android:paddingStart="8dp"
+        android:background="@color/teal_200"
+
+        />
+
+</LinearLayout>
